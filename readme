@@ -1,0 +1,21 @@
+# 📝 TodoWeb - ASP.NET Core Management System
+
+**TodoWeb** — bu foydalanuvchilar o'z vazifalarini boshqarishi, adminlar esa barcha foydalanuvchilarni va ularning topshiriqlarini nazorat qilishi mumkin bo'lgan kuchli To-Do platformasi.
+
+## 🚀 Imkoniyatlar
+
+### 👤 Foydalanuvchilar uchun:
+* **Ro'yxatdan o'tish va Kirish:** Xavfsiz autentifikatsiya tizimi.
+* **Vazifalar boshqaruvi:** Shaxsiy vazifalarni yaratish, o'chirish va bajarilgan deb belgilash.
+
+### 🛡️ Admin Panel (Boshqaruv):
+* **Dashboard:** Jami foydalanuvchilar, jami vazifalar va bajarilgan ishlar statistikasi.
+* **Foydalanuvchilar ro'yxati:** Har bir foydalanuvchining necha aktiv va necha yakunlangan vazifasi borligini ko'rish.
+* **To'liq nazorat:** Admin har bir foydalanuvchiga yangi vazifa yuklashi, mavjudlarini o'chirishi yoki holatini (Aktiv/Bajarilgan) o'zgartirishi mumkin.
+* **Foydalanuvchini o'chirish:** Tizimdan istalgan foydalanuvchini chetlatish imkoniyati.
+
+## 🛠️ Texnologiyalar
+* **Framework:** ASP.NET Core 8.0/9.0 MVC
+* **Ma'lumotlar bazasi:** Entity Framework Core & MS SQL Server
+* **Xavfsizlik:** ASP.NET Core Identity (Rollarga asoslangan ruxsatnomalar)
+* **Frontend:** Bootstrap 5, Razor Views, HTML5, CSS3
