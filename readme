@@ -19,3 +19,18 @@
 * **Ma'lumotlar bazasi:** Entity Framework Core & MS SQL Server
 * **Xavfsizlik:** ASP.NET Core Identity (Rollarga asoslangan ruxsatnomalar)
 * **Frontend:** Bootstrap 5, Razor Views, HTML5, CSS3
+
+
+JSON
+"ConnectionStrings": {
+  "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=TodoWebDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+}
+Migratsiyalarni amalga oshiring: Package Manager Console orqali:
+
+PowerShell yoki Packege managerda:
+add-migration newMigration
+Update-Database
+Loyihani yurgizing: Loyiha ilk marta yugurganda avtomatik ravishda quyidagi Admin yaratiladi:
+
+Login: admin
+Parol: Admin123!
